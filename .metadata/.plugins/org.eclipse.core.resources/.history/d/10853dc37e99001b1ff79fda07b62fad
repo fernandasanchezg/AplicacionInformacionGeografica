@@ -1,0 +1,16 @@
+package Clases;
+
+public class ExportarXML extends Exportar {
+
+	Grafo grafo;
+
+	public NotificadorCorreoEmpresarial(Notificador notificador) {
+		this.notificador = notificador;
+	}
+
+	@Override
+	public String enviar() {
+		return "\nSe ha enviado el mensaje por correo empresarial" + notificador.enviar();
+	}
+
+}

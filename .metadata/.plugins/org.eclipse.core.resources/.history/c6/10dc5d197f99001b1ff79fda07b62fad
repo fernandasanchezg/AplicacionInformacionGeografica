@@ -1,0 +1,16 @@
+package Clases;
+
+public class ExportarXML extends Exportar {
+
+	Grafo grafo;
+
+	public ExportarXML(Grafo grafo) {
+		this.grafo = grafo;
+	}
+
+	@Override
+	public void String exportar() {
+		return "Se ha exportado por XML" + grafo.exportar();
+	}
+
+}

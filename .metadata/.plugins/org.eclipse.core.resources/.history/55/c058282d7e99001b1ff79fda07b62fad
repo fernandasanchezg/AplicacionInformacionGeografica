@@ -1,0 +1,12 @@
+package Clases;
+
+public abstract class Exportar {
+
+	private Grafo grafo;
+	
+
+	
+	public abstract void exportarGrafo(grafo);
+	
+	
+

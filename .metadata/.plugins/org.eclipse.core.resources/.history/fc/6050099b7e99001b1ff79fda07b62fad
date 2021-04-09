@@ -1,0 +1,17 @@
+package Clases;
+
+public class ExportarXML extends Exportar {
+	
+	Grafo grafo;
+	
+	public Exportar()Grafo grafo) {
+		this.grafo = grafo;
+	}
+
+	@Override
+	public void exportar(Grafo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

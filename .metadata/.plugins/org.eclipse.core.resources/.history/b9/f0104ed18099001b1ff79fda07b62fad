@@ -1,0 +1,12 @@
+package Clases;
+
+public interface Exportar {
+
+ Grafo grafo = new Grafo();
+ 
+ abstract public String exportar();
+	
+}
+
+	
+

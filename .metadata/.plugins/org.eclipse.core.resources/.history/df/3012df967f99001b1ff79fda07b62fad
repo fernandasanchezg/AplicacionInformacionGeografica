@@ -1,0 +1,22 @@
+package Clases;
+
+public class ExportarPDF {
+	
+	Grafo grafo;
+
+	public ExportarPDG(Grafo grafo) {
+		this.grafo = grafo;
+	}
+
+	@Override
+	public String exportar() {
+		return "Se ha exportado por XML";
+	}
+
+}
+
+
+	
+	
+
+

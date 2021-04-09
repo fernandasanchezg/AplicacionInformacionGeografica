@@ -1,0 +1,10 @@
+package Clases;
+
+public abstract class Exportar {
+	
+	private Grafo grafo = new Grafo();
+	
+	public abstract void exportarGrafo(Grafo)
+
+}
+}

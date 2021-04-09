@@ -1,0 +1,16 @@
+package Clases;
+
+public interface Exportar {
+
+	Grafo grafo = new Grafo();
+	
+	public Exportar(Grafo grafo) {
+		
+		this.grafo = grafo;
+		
+	}
+	
+	public abstract void exportarGrafo(grafo);
+	
+	
+}
